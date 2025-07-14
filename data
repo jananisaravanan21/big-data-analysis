@@ -9,7 +9,7 @@ import pandas as pd
     import matplotlib.pyplot as plt
     import seaborn as sns
     import joblib # For saving/loading the model
-
+ 
     def train_and_evaluate_model(data_path='house_data.csv', model_filename='house_price_model.pkl'):
         """
         Loads data, preprocesses it, trains a linear regression model,
